@@ -42,7 +42,7 @@
 
 <section>
   <h1 class="text-4xl text-center my-4">Multiple Counter</h1>
-  <div class="relative block w-1/3 mx-auto">
+  <div class="relative block sm:w-1/3 md:w-2/3 w-7/8 sm:mx-auto mx-4">
     {#each counterCount as counter}
       <Counter bind:counter />
     {/each}
